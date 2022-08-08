@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>simple try</title>
+	<script>
+		fetch('https://datausa.io/api/data?drilldowns=Nation&measures=Population').then((apidata) =>{
+			// console.log(apidata);
+			return apidata.json();
+		}).then(( actualdata) =>{
+			const datas=(actualdata.data[3]);
+			console.log(`the ID of Nation ${datas.data=[4]}.Name of the Nation is ${datas.Nation}.Total population is ${datas.Population}.and the year is ${datas.year} `);
+		});
+	</script>
+</head>
+<body>
+
+</body>
+</html>

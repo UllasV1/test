@@ -1,0 +1,102 @@
+*{
+	padding: 0;
+	margin: 0;
+	
+}
+.wrapper
+{
+	width: 1170px;
+	margin: auto;
+}
+header
+{
+    
+    background-image: url("nature-3082832__480.jpg");
+    height: 130vh;
+    -webkit-background-size: cover;            
+    background-size: cover;                     
+    background-position: center ;  
+    align-items: flex-start;             \\
+
+                            
+}
+.nav-area
+{
+	float: right;
+	list-style: none;
+	margin-top: 60px;
+	position: fixed;
+	margin-left: 700px;
+
+}
+.nav-area li{
+	display: inline-flex;
+	
+
+}
+.nav-area li a{
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: robot,arial;
+	font-size: 16px;
+
+}
+.nav-area li a:hover
+{
+	background: #fff;
+	color: #333;
+}
+.logo img
+{
+	width: 80px;
+	float: left;
+	height: auto;
+	margin-top: 60px;
+	border-radius: 200px;
+	position: fixed;
+}
+.welcome-text
+{
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 20% 30%;
+	text-align: center;
+}
+,welcome-text h1
+{
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+.welcome-text a{
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color: white;
+	font-weight: bold;
+}
+.bttm
+{
+	height: 30vh;
+	bottom: 0;           \\
+
+}
+.bttm h3
+{
+	text-align: left;
+
+}
+.bttmimg
+{
+ object-position: right;
+ margin-bottom: 40px;
+ float: right;
+
+ }

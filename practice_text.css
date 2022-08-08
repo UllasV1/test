@@ -1,0 +1,29 @@
+.heading{
+			margin-left: 330px;
+			font-size: 20px;
+			font-weight: bold;
+		}
+		.introduction{
+			width: 600px;
+			margin-left: 100px;
+			color: gray;
+			
+		}
+		.span_text:hover{
+			text-decoration: underline;
+			color: black;
+
+		}
+		.span_text{
+			color: blue;
+			cursor: pointer;
+		}
+		.text{
+			color: gray;
+			margin-left: 100px;
+			width: 600px;
+		}
+		.text2{
+			margin-left: 100px;
+			color: gray;
+		}

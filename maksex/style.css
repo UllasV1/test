@@ -1,0 +1,57 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.navbar{
+	width: 1200px;
+	height: 75px;
+	margin: auto;
+}
+
+.icon{
+	width: 200px;
+	height: 70px;
+	flot: lest;
+}
+
+.logo{
+	color: #;
+	font-size: 35px;
+
+}
+.menu{
+	width: 400px;
+	float: left;
+	height: 70px;
+	vertical-align: top;
+}
+ul{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    margin-left: 500px;
+
+	
+}
+ul li{
+	list-style: none;
+	margin-left:60px ;
+	margin-top: 15px;
+	font-size: 14px;
+	font-weight: 700;
+
+
+}
+ul li a{
+	color: white;
+	transition: 0.15;
+}
+ul li a:hover{
+	color: black;
+}
+.menu-bar{
+	background: rgb(0,100,56);
+	text-align: center;
+}

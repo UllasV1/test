@@ -1,0 +1,65 @@
+.header
+{
+	height: 55px;
+
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.left-part
+{
+  
+ 
+  display: flex;
+  align-items: center;
+}
+.hamerlogo
+{
+	height: 26px;
+	margin-right: 20px;
+	margin-left: 20px;
+
+}
+.youlogo
+{
+	height: 26px;
+}
+.middle-part
+{
+  background-color: lightpink;
+  flex: 1;
+  margin-right:75px ;
+  margin-left: 30px;
+  max-width: 700px;
+  
+  align-items: right;
+}
+.search-bar
+{
+    height: 30px;
+	width: 70px;
+}
+.searchlogo
+{
+	height: 2px;
+    width: 100%px;
+    position: absolute;
+    min-width: 12px;
+ 
+}
+.voicelogo
+{
+	height:0px;
+   width: 50px;
+   position: fixed ;
+   top: 30px;
+  
+
+}
+.right-part
+{
+  background-color: lightgreen;
+ 
+  width: 250px;
+}
